@@ -7,6 +7,8 @@ list1  #print when through spyder
 type(list1)  #type of object
 print(list1)  #print when running complete file
 list1
+L1 = list([1,23,5])
+sorted(L1)
 sorted([100000,5,3,2,4,5,324,43,4,4,3,23,434,53442,244,2245224,523])
 list2 = ['f','c','d','e',"f"]
 list2
@@ -105,7 +107,7 @@ dir(str)
 str2[1] = 'Z' #immutable , but new string can be assigned
 str2 = 'Dhiraj'
 str2
-
+str3 = str('hello')
 #list, tuple, dictionary, set, strings.
 #%% - Sequence
 #sequence - tuple and list are used
